@@ -1,0 +1,93 @@
+body {
+  background-color: #B0A8B9;
+  color: #4B4453;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #845EC2;
+}
+
+a {color: black; text-decoration: none;}
+a:hover {text-decoration: none; color: #C34A36;}
+a:active {text-decoration: none;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width:200px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 2px;                         /* Small radius */
+  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.nav {
+  display: inline-block;
+  margin: auto;
+  padding: auto;
+  word-spacing: 20px;
+}
+
+.img-rounded {
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-red {
+  background-color: #FF8066;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
