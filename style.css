@@ -79,6 +79,10 @@ img {
   font-size: 1.3em;
 }
 
+.text-red {
+  color: #FF8066;
+}
+
 #sidebar {
   position: fixed;
   width: 300px;
@@ -86,7 +90,6 @@ img {
   top: 0;
   bottom: 0;
   background-color: #4B4453;
-  color: white;
 }
 
 #page-content {
