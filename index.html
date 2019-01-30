@@ -6,13 +6,27 @@
   <link rel="stylesheet" href="style.css">
   <title>Badass profile de Aymeric la fripouille</title>
 </head>
-
 <body>
-  <div class="container">
+  <div id="sidebar">
+    <div class="text-center">
+        <ul class="text-center list-separated">
+          <li class='text-center'>
+            <a href="#intro"><i class="fa fa-info-circle"></i> LinkedIn</a>
+          </li>
+          <li class='text-center'>
+            <a href="#movies"><i class="fas fa-basketball-ball"></i> Facebook</a>
+          </li>
+          <li class='text-center'>
+            <a href="#about"><i class="fa fa-life-ring"></i> BestBookEver</a>
+          </li>
+        </ul>
+    </div>
+  </div>
+  <div id="page-content" class="container">
     <div class="card text-center">
       <img class="img-rounded" src="images/profile_pic.png">
       <h1>Aymeric Vinot</h1>
-      <h2>Super trooper</h2>
+      <h2><a name="intro"></a>Super trooper</h2>
       <p>In love with product & mountaineering.
         I also play basketball
         Previously marketing guy @Drivy
@@ -36,7 +50,7 @@
         </ul>
     </div>
     <div class="card text-center">
-      <h2>My favorites movies</h2>
+      <h2><a name="movies"></a>My favorites movies</h2>
       <table>
         <tbody>
           <tr>
@@ -70,7 +84,7 @@
       </table>
     </div>
     <div class="card text-center">
-      <h2>About</h2>
+      <h2><a name="about"></a>About</h2>
       <p>This page has been coded today et ouais. See better <a href="http://lewagon.github.io/html-css-challenges/01-profile-content/">here</a></p>
     </div>
   </div>
